@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: 'Aladin';
-  src: url('/GUIDES/assets/fonts/Aladin-Regular.ttf');
+  src: url('/assets/fonts/Aladin-Regular.ttf');
 }
 
 @font-face {
   font-family: 'PT-Sans';
-  src: url('/GUIDES/assets/fonts/PTSans-Regular.ttf');
+  src: url('/assets/fonts/PTSans-Regular.ttf');
 }
 
 .bg{

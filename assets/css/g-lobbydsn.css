@@ -1,12 +1,12 @@
 
 @font-face {
     font-family: "Tamba Sans";
-    src: url(/4.0\ \(Pre-Test\)/assets/fonts/TambaSansDemo-Bold.otf);
+    src: url(/assets/fonts/TambaSansDemo-Bold.otf);
 }
 
 
 body {
-    background: url(/GUIDES/assets/images/bg.jpg) no-repeat;
+    background: url(/assets/images/bg.jpg) no-repeat;
     background-size: cover;
     text-align: center;
 }

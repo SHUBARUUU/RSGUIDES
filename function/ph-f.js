@@ -1,5 +1,5 @@
 function playAudio() {
-    var voice = new Audio('/GUIDES/assets/audio/phonetics.wav')
+    var voice = new Audio('assets/audio/phonetics.wav')
     voice.play();
 }
 
