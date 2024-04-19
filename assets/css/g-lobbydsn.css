@@ -1,0 +1,84 @@
+
+@font-face {
+    font-family: "Tamba Sans";
+    src: url(/4.0\ \(Pre-Test\)/assets/fonts/TambaSansDemo-Bold.otf);
+}
+
+
+body {
+    background: url(/GUIDES/assets/images/bg.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.contain{
+    background-color: hsla(0, 0%, 0%, 0.25);
+    border-radius: 25px;
+
+    position: relative;
+    top: 50%;
+    transform: translate(50% -50%);
+}
+
+
+#gdn{
+  
+    font-family: 'Aladin';  /* The 'Aladin' font can be inputted in any letter format, either lowercase or uppercase. */
+    font-style: normal;
+    font-size: 130px;
+    font-weight: 400;
+    line-height: 1;
+    padding-top: 100px;
+   
+  
+}
+
+p {
+    font-family:'PT-Sans';  
+    /* Same as the 'Aladin' font. Just don't forget the hyphen between it. */
+    margin-top: -7%;
+    color: rgba(205, 53, 53, 1);
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.2;
+    padding: 45px;
+}
+
+
+#btns .mnl {
+font-size: 40px;
+padding: 6px 20px 10px 20px;
+margin: 30px;
+
+
+ font-family: 'aladin';
+ letter-spacing: 2px;
+ background:rgba(33, 31, 31, 1);
+ color: white;
+ border-radius: .5rem;
+ border-bottom: 2px solid rgba(205, 53, 53, 1);
+ border-right: 2px solidrgba(205, 53, 53, 1);
+ border-top: 2px solid white;
+ border-left: 2px solid white;
+ transition-duration: 1s;
+ transition-property: border-top, 
+    border-left, 
+    border-bottom,
+    border-right,
+    box-shadow;
+}
+
+#btns .mnl:hover {
+ border: 2px rgb(137, 27, 27);
+ box-shadow:rgb(137, 27, 27) 5px 5px, rgb(238, 83, 83) 10px 10px, rgb(244, 162, 162) 15px 15px;
+}
+
+@media (max-width: 480px) {
+    h1{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+}

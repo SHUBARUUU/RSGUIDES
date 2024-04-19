@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="./assets/images/O.png">
+    <link rel="stylesheet" href="./assets/css/dslambda.css" />
+
+    <!--* THE LINKS FOR THE FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aladin&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <!--TODO PUT A BACKGROUND DESIGN -->
+  <!--TODO ALIGN ALL THE CONTENTS  -->
+  <!--? KNOW THE CONTENTS AND HOW THEY DESIGNED AND FUNCTION  -->
+
+  <body>
+    <!--! Introlambda is for the container of inner container div, and its adjacent sibling h3  -->
+    
+    <div class="bg"></div>
+
+  <div class="origin">
+    
+    <div class="introlambda">
+      <div id="introlambda-inner">
+        <h1>/&Lambda; /</h1>
+        <p>
+          This is the lambda symbol, simply <br />
+          called a "flipped v" for your convenience.
+        </p>
+      </div>
+      <h4>This represents the "uh" sounds in words.</h4>
+    </div>
+
+    <!--* MADE A DIV/CONTAINER FOR ME TO BE ABLE TO PUT THE 3 DIVS (for flexbox too) -->
+    <div class="ORGword">
+      <div class="daword">
+        <button id="hereshow" onclick="playAudio()">
+          <p>Press this to know the <br> pronunciation.</p>
+        </button>
+
+        <div id="wordborder">
+          <p>guts</p>
+        </div>
+
+        <button id="sayit"><p>Try to say it?</p></button>
+      </div>
+
+      <div class="outputs">
+        <p id="answer"></p>
+
+        <p id="verdict"></p>
+      </div>
+    </div>
+
+    <div id="aln">
+
+    <button id="next" onclick="document.location='/4.0 (Pre-Test)/webpages/startscreen.htm'">Main</button>
+
+    <button id="next" onclick="document.location='/GUIDES/theta.htm'">Next</button>
+
+    </div>
+  </div>
+    <script src="./function/lambda.js"></script>
+  </body>
+</html>
