@@ -1,5 +1,5 @@
 function playAudio() {
-    var voice = new Audio('assets/audio/phonetics.wav')
+    var voice = new Audio('three.wav')
     voice.play();
 }
 
@@ -14,7 +14,7 @@ if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
         var output = document.getElementById('answer');
         output.textContent = transcript;
 
-        if (transcript == "phonetics") {
+        if (transcript == "three") {
 
             document.getElementById('verdict').textContent = "Well done!";
 

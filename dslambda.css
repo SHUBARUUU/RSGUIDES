@@ -6,16 +6,16 @@
   
   @font-face {
     font-family: 'Aladin';
-    src: url('./fonts/Aladin-Regular.ttf');
+    src: url('Aladin-Regular.ttf');
 }
 
 @font-face {
     font-family: 'PT-Sans';
-    src: url('./fonts/PTSans-Regular.ttf');
+    src: url('PTSans-Regular.ttf');
 }
 
   .bg{
-    background: url(../images/bg.jpg);
+    background: url(bg.jpg);
     background-size: cover;
 
     background-position:  center;

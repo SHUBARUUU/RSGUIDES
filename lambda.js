@@ -1,5 +1,5 @@
 function playAudio() {
-    var voice = new Audio('./assets/audio/three.wav')
+    var voice = new Audio('guts.wav')
     voice.play();
 }
 
@@ -14,7 +14,7 @@ if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
         var output = document.getElementById('answer');
         output.textContent = transcript;
 
-        if (transcript == "three") {
+        if (transcript == "guts") {
 
             document.getElementById('verdict').textContent = "Well done!";
 
@@ -32,3 +32,4 @@ if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
         recognition.start();
     });
 }
+

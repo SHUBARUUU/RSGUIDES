@@ -6,14 +6,14 @@
   
   @font-face {
     font-family: 'Aladin';
-    src: url('./assets/fonts/Aladin-Regular.ttf');
+    src: url('Aladin-Regular.ttf');
 }
 
 
 
 
 .bg{
-  background: url(../images/bg.jpg);
+  background: url(bg.jpg);
   background-size: cover;
 
   background-position:  center;
